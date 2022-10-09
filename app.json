@@ -1,0 +1,18 @@
+{
+    "name": "heroku",
+    "description": "deploy to heroku",
+    "keywords": [""],
+    "env": {
+        "UUID": {
+            "description": "UUID",
+            "value": "c95ef1d4-f3ac-4586-96e9-234a37dda068"        
+        },
+        "PROTOCOL": {
+            "description": " protocol, vmess or vless",
+            "value": "vmess"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
