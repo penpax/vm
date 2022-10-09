@@ -16,7 +16,7 @@ jobs:
       - name: Wait for tests to succeed
         if: ${{ github.event.workflow_run.conclusion == 'success'  }}
         #run: exit 1
-      - name: clone repo
+      #- name: clone repo
         run: |
             git config --global --add safe.directory $(pwd)
             git clone --quiet https://${{ github.token }}@github.com/${{ github.repository }} .
