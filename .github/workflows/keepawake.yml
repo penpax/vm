@@ -30,10 +30,10 @@ jobs:
           rm -rf *.txt
           TZ='Asia/Shanghai'; export TZ
           
-          if [ "$(curl -sL -w '%{http_code}' https://msht.herokuapp.com/ -o /dev/null)" = "200" ]; then
-            echo ------------success excute curl msht!!!!!!!------------
+          if [ "$(curl -sL -w '%{http_code}' https://ppvm.herokuapp.com/ -o /dev/null)" = "200" ]; then
+            echo ------------success excute curl ppvm!!!!!!!------------
           else
-            echo "msht Fail!!!"
+            echo "ppvm Fail!!!"
           fi
           
           
